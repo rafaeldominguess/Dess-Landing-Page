@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+:root {
+  --background: #c9c4c1;
+  --color: #CB30E0;
+  --color-header: #FFFFFF;
+  --color-semiheader: #D4D4D4;
+  --background-button: #cb30e0;
+  --color-servicesheader: #620070;
+}
+ 
