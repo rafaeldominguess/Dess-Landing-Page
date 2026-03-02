@@ -3,7 +3,7 @@ import Button from "../../ui/Button/button";
 function Header() {
     return (
         <main className="w-full border-b border-b-(--color) py-4">
-            <header className="max-w-350 mx-auto flex justify-between items-center h-8">  
+            <header className="max-w-350 mx-auto flex justify-between items-center h-8 px-6">  
                 <div className="text-(--color) text-[32px] font-extrabold uppercase">
                     Dess
                 </div>
