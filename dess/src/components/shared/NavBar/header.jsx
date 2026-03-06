@@ -10,7 +10,7 @@ function Header() {
                         Ana Fernandes
                     </div>
 
-                    <div className="flex gap-16 text-(--color) text-md font-bold cursor-pointer">
+                    <div className=" hidden md:flex md:gap-16 md:text-(--color) md:text-md md:font-bold md:cursor-pointer">
                         <p>Home</p>
                         <p>Sobre</p>
                         <p>Serviços</p>
@@ -18,8 +18,9 @@ function Header() {
                     </div>
 
 
-                <div>
-                    <Button children="Agendamento" />
+                <div className="hidden md:block">
+                    <Button
+                     children="Agendamento" />
                 </div>
             </header>
         </main>

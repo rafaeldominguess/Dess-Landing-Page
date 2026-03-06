@@ -3,38 +3,43 @@ import Button from "../../components/ui/Button/button";
 function About() {
     return (
         <main className="overflow-hidden w-full max-h-800 py-18">
-            <div className="flex max-w-350 mx-auto px-6 items-center justify-around">
-                <section className=" flex flex-col gap-6 max-w-md ">
+            <div className="md:flex max-w-350 mx-auto px-6 items-center justify-around">
+                <section className=" w-full md:w-160 flex flex-col gap-6 max-w-md ">
                     <div>
-                        <h1 className="text-2xl text-(--color)">Quem é</h1>
+                        <h1 className="text-2xl text-(--color) font-bold">Quem é</h1>
                         <span className="font-bold text-4xl text-[#620070]">Ana Fernandes</span>
                     </div>
                     <div>
-                        <p className="text-(--color) text-md leading-relaxed">
+                        <p className="text-(--color) text-sm md:text-lg leading-relaxed">
                             Ana Fernandez é especialista em design de sobrancelhas com foco em visagismo e naturalidade. Sua trajetória começou pela paixão pela simetria, evoluindo de atendimentos personalizados para a fundação de seu próprio estúdio. Referência em reabilitação de olhares, Ana combina precisão técnica e sensibilidade para criar designs únicos que respeitam a identidade e elevam a autoestima de cada cliente.
                         </p>
                     </div>
 
-                    <div>
+                    <div className="text-center md:text-start">
                         <Button children={"Marcar Consulta"} />
                     </div>
 
                 </section>
 
-                <section>
-                    <div>
+                <section className="flex justify-center items-center" >
+                    <div >
                         <img src="./fotoprofissional.jpg" alt="foto da profissional Ana Fernandes"
-                            width={300}
-                            height={300}
+                        quality={100}
+                        className="w-[200px] h-[300px] md:w-[300px] md:h-[400px]"
                         />
                     </div>
                 </section>
 
-                <section>
+                <section className=" hidden md:flex md:flex-col md:gap-12 md:items-center" >
                     <div className="text-(--color) text-xl font-bold">
-                        Ana Fernandes 
+                        Ana Fernandes
                     </div>
-
+                    <div className="flex flex-col gap-8 items-center">
+                        <div className="w-0 h-0 border-l-[40px] border-l-transparent border-r-[40px] border-r-transparent border-t-[60px] border-t-[#8B0099]"></div>
+                        <div className="w-0 h-0 border-l-[40px] border-l-transparent border-r-[40px] border-r-transparent border-t-[60px] border-t-[#B84CBF]"></div>
+                        <div className="w-0 h-0 border-l-[40px] border-l-transparent border-r-[40px] border-r-transparent border-t-[60px] border-t-[#D989DF]"></div>
+                        <div className="w-0 h-0 border-l-[40px] border-l-transparent border-r-[40px] border-r-transparent border-t-[60px] border-t-[#E9B8EF]"></div>
+                    </div>
                 </section>
 
             </div>
