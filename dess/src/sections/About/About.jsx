@@ -26,9 +26,15 @@ function About() {
                         <img src="./fotoprofissional.jpg" alt="foto da profissional Ana Fernandes"
                             width={300}
                             height={300}
-                            className=" shadow-xl object-cover"
                         />
                     </div>
+                </section>
+
+                <section>
+                    <div className="text-(--color) text-xl font-bold">
+                        Ana Fernandes 
+                    </div>
+
                 </section>
 
             </div>
