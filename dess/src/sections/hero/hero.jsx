@@ -49,9 +49,9 @@ function Hero() {
                     <div className="flex items-center gap-4">
                         <Button>ENTRAR EM CONTATO</Button>
                         <div className="flex gap-2">
-                            <div className="w-2 h-2 bg-(--color) rounded-full animate-pulse"></div>
-                            <div className="w-2 h-2 bg-(--color) rounded-full animate-pulse delay-100"></div>
-                            <div className="w-2 h-2 bg-(--color) rounded-full animate-pulse delay-200"></div>
+                            <div className="w-2 h-2 bg-purple-900 rounded-full animate-pulse"></div>
+                            <div className="w-2 h-2 bg-purple-600 rounded-full animate-pulse  delay-100"></div>
+                            <div className="w-2 h-2 bg-purple-500 rounded-full animate-pulse delay-200"></div>
                         </div>
                     </div>
                 </div>
