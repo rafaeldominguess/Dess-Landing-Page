@@ -13,13 +13,13 @@ function Hero() {
                     <div className="absolute -inset-4 bg-linear-to-br from-(--color) to-(--color-servicesheader) rounded-full opacity-20 blur-xl"></div>
 
                     <Image
-                        src="/fotohero.jpg"
+                        src="/foto hero.jpg"
                         alt="Hero background"
                         width={300}
                         height={100}
                         quality={100}
                         priority
-                        className="relative object-cover rounded-full border-4 border-(--color) shadow-2xl"
+                        className="w-50 h-75 md:w-75 md:h-100 relative rounded-lg object-cover"
                     />
 
                 </div>
@@ -34,9 +34,7 @@ function Hero() {
                     <h1 className="text-5xl font-extrabold mb-6 leading-tight">
                         O olhar que reflete a sua <span className="text-(--color) relative">
                             melhor versão
-                            <svg className="absolute -bottom-2 left-0 w-full" height="8" viewBox="0 0 200 8" fill="none">
-                                <path d="M0 4 Q 50 8, 100 4 T 200 4" stroke="currentColor" strokeWidth="2" fill="none" opacity="0.5" />
-                            </svg>
+                            
                         </span>
                     </h1>
 
