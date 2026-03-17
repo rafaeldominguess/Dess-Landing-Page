@@ -25,7 +25,7 @@ function About() {
                     <div >
                         <img src="./fotoprofissional.jpg" alt="foto da profissional Ana Fernandes"
                         quality={100}
-                        className="w-[200px] h-[300px] md:w-[300px] md:h-[400px]"
+                        className="w-50 h-75 md:w-75 md:h-100"
                         />
                     </div>
                 </section>
@@ -35,10 +35,10 @@ function About() {
                         Ana Fernandes
                     </div>
                     <div className="flex flex-col gap-8 items-center">
-                        <div className="w-0 h-0 border-l-[40px] border-l-transparent border-r-[40px] border-r-transparent border-t-[60px] border-t-[#8B0099]"></div>
-                        <div className="w-0 h-0 border-l-[40px] border-l-transparent border-r-[40px] border-r-transparent border-t-[60px] border-t-[#B84CBF]"></div>
-                        <div className="w-0 h-0 border-l-[40px] border-l-transparent border-r-[40px] border-r-transparent border-t-[60px] border-t-[#D989DF]"></div>
-                        <div className="w-0 h-0 border-l-[40px] border-l-transparent border-r-[40px] border-r-transparent border-t-[60px] border-t-[#E9B8EF]"></div>
+                        <div className="w-0 h-0 border-l-40 border-l-transparent border-r-40 border-r-transparent border-t-60 border-t-[#8B0099]"></div>
+                        <div className="w-0 h-0 border-l-40 border-l-transparent border-r-40 border-r-transparent border-t-60 border-t-[#B84CBF]"></div>
+                        <div className="w-0 h-0 border-l-40 border-l-transparent border-r-40 border-r-transparent border-t-60 border-t-[#D989DF]"></div>
+                        <div className="w-0 h-0 border-l-40 border-l-transparent border-r-40 border-r-transparent border-t-60 border-t-[#E9B8EF]"></div>
                     </div>
                 </section>
 
