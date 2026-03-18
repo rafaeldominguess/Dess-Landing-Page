@@ -3,7 +3,7 @@ import Button from "../../components/ui/Button/button";
 function About() {
     return (
         <main className="overflow-hidden w-full max-h-800 py-18">
-            <div className="md:flex max-w-350 mx-auto px-6 items-center justify-around">
+            <div className="md:flex max-w-350 mx-auto px-6 items-center justify-evenly bg-gray-100 rounded-md py-10">
                 <section className=" w-full md:w-160 flex flex-col gap-6 max-w-md ">
                     <div>
                         <h1 className="text-2xl text-(--color) font-bold">Quem é</h1>
@@ -21,11 +21,11 @@ function About() {
 
                 </section>
 
-                <section className="flex justify-center items-center" >
-                    <div >
+                <section className="flex justify-center items-center py-18" >
+                    <div className=" ">
                         <img src="./fotoprofissional.jpg" alt="foto da profissional Ana Fernandes"
                         quality={100}
-                        className="w-50 h-75 md:w-75 md:h-100"
+                        className="w-50 h-75 md:w-75 md:h-100 rounded-md"
                         />
                     </div>
                 </section>

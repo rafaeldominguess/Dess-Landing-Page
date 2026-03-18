@@ -5,21 +5,17 @@ function Hero() {
     return (
         <main className="relative w-full overflow-hidden">
 
-            <div className="relative max-w-350 flex justify-around items-center mx-auto py-18 px-6">
+            <div className="relative max-w-350 flex justify-evenly items-center mx-auto py-18 px-6">
                 <div className="relative">
 
-
-                    {/* Círculo decorativo atrás da imagem */}
-                    <div className="absolute -inset-4 bg-linear-to-br from-(--color) to-(--color-servicesheader) rounded-full opacity-20 blur-xl"></div>
-
                     <Image
-                        src="/foto hero.jpg"
+                        src="/foto_hero.jpg"
                         alt="Hero background"
                         width={300}
                         height={100}
                         quality={100}
                         priority
-                        className="w-50 h-75 md:w-75 md:h-100 relative rounded-lg object-cover"
+                        className="object-cover rounded-md w-50 h-75 md:w-75 md:h-100 relative"
                     />
 
                 </div>
@@ -34,7 +30,7 @@ function Hero() {
                     <h1 className="text-5xl font-extrabold mb-6 leading-tight">
                         O olhar que reflete a sua <span className="text-(--color) relative">
                             melhor versão
-                            
+
                         </span>
                     </h1>
 

@@ -1,6 +1,7 @@
 import Header from "@/components/shared/NavBar/header";
 import Hero from "@/sections/hero/hero";
 import About from "@/sections/About/About";
+import Services from "@/sections/Services/Services";
 
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <Header />
       <Hero />
       <About />
+      <Services />
     </div>
   );
 }
