@@ -8,13 +8,13 @@ import Footer from "@/sections/Footer/Footer";
 
 export default function Home() {
   return (
-    <div className="h-screen w-full">
+    <main className="w-full overflow-x-hidden">
       <Header />
       <Hero />
       <About />
       <Services />
       <Contact />
       <Footer />
-    </div>
+    </main>
   );
 }

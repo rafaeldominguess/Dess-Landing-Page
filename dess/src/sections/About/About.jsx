@@ -1,10 +1,11 @@
+import Image from "next/image";
 import Button from "../../components/ui/Button/button";
 
 function About() {
     return (
-        <main className="overflow-hidden w-full max-h-800 py-18">
-            <div className="md:flex max-w-350 mx-auto px-6 items-center justify-evenly bg-gray-100 rounded-md py-10">
-                <section className=" w-full md:w-160 flex flex-col gap-6 max-w-md ">
+        <section id="about" className="section-shell overflow-hidden w-full py-16 md:py-24">
+            <div className="surface-card mx-auto flex max-w-350 flex-col items-center justify-evenly gap-12 rounded-3xl bg-white px-6 py-10 shadow-[0_20px_60px_rgba(98,0,112,0.06)] md:flex-row md:gap-10 md:px-10">
+                <section className="animate-fade-up w-full max-w-md flex flex-col gap-6 md:w-160">
                     <div>
                         <h1 className="text-3xl text-(--color) font-bold">Quem é</h1>
                         <span className="font-bold text-5xl text-[#620070]">Ana Fernandes ?</span>
@@ -16,21 +17,24 @@ function About() {
                     </div>
 
                     <div className="text-center md:text-start">
-                        <Button children={"Marcar Consulta"} />
+                        <Button>Marcar Consulta</Button>
                     </div>
 
                 </section>
 
-                <section className="flex justify-center items-center py-18" >
-                    <div className=" ">
-                        <img src="./fotoprofissional.jpg" alt="foto da profissional Ana Fernandes"
-                        quality={100}
-                        className="w-50 h-75 md:w-75 md:h-100 rounded-md"
+                <section className="flex items-center justify-center animate-fade-up anim-delay-1" >
+                    <div>
+                        <Image
+                            src="/fotoprofissional.jpg"
+                            alt="foto da profissional Ana Fernandes"
+                            width={300}
+                            height={400}
+                            className="w-50 h-75 rounded-2xl object-cover shadow-xl shadow-[#620070]/10 md:w-75 md:h-100"
                         />
                     </div>
                 </section>
 
-                <section className=" hidden md:flex md:flex-col md:gap-12 md:items-center" >
+                <section className="hidden md:flex md:flex-col md:gap-12 md:items-center animate-fade-up anim-delay-2" >
                     <div className="text-(--color) text-xl font-bold">
                         Ana Fernandes
                     </div>
@@ -43,7 +47,7 @@ function About() {
                 </section>
 
             </div>
-        </main>
+        </section>
     )
 }
 
