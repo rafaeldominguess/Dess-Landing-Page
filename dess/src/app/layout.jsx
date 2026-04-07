@@ -13,7 +13,8 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Ana Fernandes Studio | Design de Sobrancelhas",
-  description: "Landing page elegante e leve para um estúdio de design de sobrancelhas.",
+  description:
+    "Landing page elegante e leve para um estúdio de design de sobrancelhas.",
 };
 
 export default function RootLayout({ children }) {

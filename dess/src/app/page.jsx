@@ -5,7 +5,6 @@ import Services from "@/sections/Services/Services";
 import Contact from "@/sections/Contact/Contact";
 import Footer from "@/sections/Footer/Footer";
 
-
 export default function Home() {
   return (
     <main className="w-full overflow-x-hidden">
