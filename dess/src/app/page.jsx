@@ -1,9 +1,9 @@
 import Header from "@/components/shared/NavBar/header";
-import Hero from "@/sections/hero/hero";
 import About from "@/sections/About/About";
-import Services from "@/sections/Services/Services";
 import Contact from "@/sections/Contact/Contact";
 import Footer from "@/sections/Footer/Footer";
+import Hero from "@/sections/hero/hero";
+import Services from "@/sections/Services/Services";
 
 export default function Home() {
   return (
