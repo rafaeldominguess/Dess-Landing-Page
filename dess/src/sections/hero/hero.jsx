@@ -41,7 +41,7 @@ function Hero() {
                     </p>
 
                     <div className="flex items-center gap-4">
-                        <Button>ENTRAR EM CONTATO</Button>
+                        <Button children={"Entrar em contato"} />
                         <div className="flex gap-2">
                             <div className="w-2 h-2 bg-purple-900 rounded-full animate-pulse"></div>
                             <div className="w-2 h-2 bg-purple-600 rounded-full animate-pulse  delay-100"></div>
