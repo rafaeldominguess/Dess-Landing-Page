@@ -111,14 +111,7 @@ body {
 }
 
 .surface-card {
-  transition:
-    transform 320ms ease,
-    box-shadow 320ms ease;
-}
-
-.surface-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 22px 46px rgba(98, 0, 112, 0.11);
+  transition: box-shadow 320ms ease;
 }
 
 .premium-input {

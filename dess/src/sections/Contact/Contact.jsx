@@ -88,9 +88,9 @@ function Contact() {
           </div>
         </div>
         <div className="animate-fade-up anim-delay-1 flex w-full max-w-100 flex-col gap-6 md:w-[45%]">
-          <h1 className="text-3xl text-(--color) font-bold">
+          <h2 className="text-3xl text-(--color) font-bold">
             Fale <span className="text-[#620070]">Conosco</span>
-          </h1>
+          </h2>
           <form action="">
             <input
               type="text"

@@ -8,9 +8,9 @@ function Services() {
       className="section-shell overflow-hidden py-16 md:py-24 flex justify-center"
     >
       <div className="mx-auto max-w-350 px-6 text-center animate-fade-up">
-        <h1 className="mb-2 text-4xl font-bold text-[#620070]">
+        <h2 className="mb-2 text-4xl font-bold text-[#620070]">
           Nossos Procedimentos
-        </h1>
+        </h2>
         <p className="text-(--color) text-lg md:text-xl leading-relaxed">
           "O cuidado que o seu olhar merece. Conheça nossos procedimentos
           especializados em design, simetria e saúde das sobrancelhas."

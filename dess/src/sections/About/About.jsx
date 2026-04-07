@@ -10,7 +10,7 @@ function About() {
       <div className="surface-card mx-auto flex max-w-350 flex-col items-center justify-evenly gap-12 rounded-3xl bg-white px-6 py-10 shadow-[0_20px_60px_rgba(98,0,112,0.06)] md:flex-row md:gap-10 md:px-10">
         <section className="animate-fade-up w-full max-w-md flex flex-col gap-6 md:w-160">
           <div>
-            <h1 className="text-3xl text-(--color) font-bold">Quem é</h1>
+            <h2 className="text-3xl text-(--color) font-bold">Quem é</h2>
             <span className="font-bold text-5xl text-[#620070]">
               Ana Fernandes ?
             </span>

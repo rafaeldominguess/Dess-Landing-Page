@@ -8,7 +8,7 @@ function Hero() {
       className="section-shell relative w-full overflow-hidden py-16 md:py-24"
     >
       <div className="relative mx-auto flex max-w-350 items-center justify-evenly gap-12 px-6">
-        <div className="relative animate-soft-float animate-fade-up">
+        <div className="relative">
           <Image
             src="/foto_hero.jpg"
             alt="Hero background"
