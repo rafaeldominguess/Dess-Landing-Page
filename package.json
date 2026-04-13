@@ -1,0 +1,19 @@
+{
+  "name": "dess-landing-page-root",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Root package for Vercel framework detection and proxy scripts.",
+  "scripts": {
+    "dev": "npm run dev --prefix dess",
+    "build": "npm run build --prefix dess",
+    "start": "npm run start --prefix dess",
+    "lint": "npm run lint --prefix dess",
+    "format": "npm run format --prefix dess"
+  },
+  "dependencies": {
+    "next": "16.1.6"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
