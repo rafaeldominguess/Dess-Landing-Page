@@ -1,15 +1,38 @@
 # Ana Fernandes Studio — Landing Page
 
+[![Next.js](https://img.shields.io/badge/Next.js-16.1.6-000000?logo=nextdotjs&logoColor=white)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19.2.3-20232A?logo=react&logoColor=61DAFB)](https://react.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Vercel](https://img.shields.io/badge/Deploy-Vercel-000000?logo=vercel&logoColor=white)](https://vercel.com/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
+
 A modern, SEO-friendly landing page built with **Next.js 16** and **React 19** for a beauty studio focused on eyebrow design services.
 
-This project was designed as a fast, elegant, single-page experience with strong visual identity, smooth navigation, and production-ready metadata for search engines and social sharing.
+This project delivers a polished single-page experience with a strong visual identity, smooth section navigation, and production-ready metadata for search engines and social sharing.
+
+## Live Demo
+
+- **Production URL:** https://www.anafernandesstudio.com.br
+
+## Preview
+
+![Ana Fernandes Studio Preview](./dess/public/foto_hero.jpg)
+
+## Highlights
+
+- Elegant one-page layout with anchored navigation
+- Reusable UI primitives and section-based architecture
+- SEO-ready metadata (Open Graph, Twitter, robots, sitemap, JSON-LD)
+- Image and font optimization through Next.js built-ins
+- Tailwind CSS v4 styling with custom motion and premium visual effects
+- Vercel deployment configured for a monorepo-like folder layout (`dess/`)
 
 ## Overview
 
 This repository contains one Next.js application inside the `dess/` directory.
 
-- **Repository root**: deployment configuration (`vercel.json`), license, and project documentation.
-- **Application root**: `dess/` (actual Next.js app with source code and dependencies).
+- **Repository root**: deployment config (`vercel.json`), license, and docs
+- **Application root**: `dess/` (actual Next.js app and dependencies)
 
 ## Tech Stack
 
@@ -22,7 +45,7 @@ This repository contains one Next.js application inside the `dess/` directory.
 ### Styling & UI
 
 - **Tailwind CSS v4** (`tailwindcss` + `@tailwindcss/postcss`)
-- Custom global CSS animations and utility classes in `src/app/globals.css`
+- Custom global animations and utility classes in `src/app/globals.css`
 
 ### Tooling & Code Quality
 
@@ -31,17 +54,17 @@ This repository contains one Next.js application inside the `dess/` directory.
 
 ### Performance & Rendering
 
-- `next/image` for optimized images
-- `next/font` (Geist + Geist Mono) for optimized web fonts
+- `next/image` for optimized image delivery
+- `next/font` (Geist + Geist Mono) for optimized font loading
 - React Compiler enabled in `next.config.mjs`
 
 ### SEO & Discoverability
 
-- Rich metadata via App Router `metadata`
+- App Router metadata API
 - Open Graph + Twitter cards
 - `robots.txt` route (`src/app/robots.js`)
 - `sitemap.xml` route (`src/app/sitemap.js`)
-- Structured data (JSON-LD / `BeautySalon`) injected on home page
+- JSON-LD (`BeautySalon`) in the home page
 
 ### Deployment
 
@@ -49,16 +72,15 @@ This repository contains one Next.js application inside the `dess/` directory.
 
 ## Features
 
-- Single-page landing with anchored navigation
-- Sections:
+- Sticky, semi-transparent header with smooth-scroll navigation
+- Content sections:
   - Hero
   - About
   - Services
   - Contact (map + contact details + form UI)
   - Footer
-- Sticky header with smooth scrolling
 - Reusable premium-styled button component
-- Responsive design and subtle motion effects
+- Responsive behavior and subtle micro-interactions
 - Portuguese (Brazil) localization (`lang="pt-BR"`)
 
 ## Project Structure
@@ -98,13 +120,13 @@ This repository contains one Next.js application inside the `dess/` directory.
 - **Node.js 20+** recommended
 - **npm 10+** recommended
 
-### 1) Install dependencies
+### Install dependencies
 
 From repository root:
 
 - `npm install --prefix dess`
 
-### 2) Run development server
+### Run development server
 
 From repository root:
 
@@ -112,7 +134,7 @@ From repository root:
 
 Open [http://localhost:3000](http://localhost:3000).
 
-## Available Scripts
+## Scripts
 
 Scripts are defined in `dess/package.json`:
 
@@ -136,7 +158,7 @@ The app reads:
 
 - `NEXT_PUBLIC_SITE_URL`
 
-This variable is used for canonical URLs, sitemap, robots host, and metadata base.
+Used for canonical URLs, sitemap, robots host, and metadata base.
 
 Example (`dess/.env`):
 
@@ -144,7 +166,7 @@ Example (`dess/.env`):
 
 ## Deployment (Vercel)
 
-This repository deploys correctly from root because `vercel.json` points commands to the `dess/` app:
+Deploy works from repository root because `vercel.json` points commands to `dess/`:
 
 - `installCommand`: `npm install --prefix dess`
 - `buildCommand`: `npm run build --prefix dess`
@@ -159,11 +181,11 @@ Implemented SEO resources include:
 - `robots.txt` and `sitemap.xml` generated from code
 - Structured data (`BeautySalon`) on the home page
 
-For production, make sure contact info, map location, and domain values match your real business details.
+For production, ensure business contact details, map location, and domain values match your final brand data.
 
 ## Design Notes
 
-The visual system uses a purple-centered palette with soft gradients, motion accents, and card-based sections to reinforce a premium beauty brand feeling.
+The visual system uses a purple-centered palette, soft gradients, card-based sections, and subtle motion to reinforce a premium beauty brand identity.
 
 ## License
 
